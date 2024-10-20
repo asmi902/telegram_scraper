@@ -8,11 +8,11 @@ from telethon.tl.types import InputPeerEmpty
 # Apply asyncio to work in Jupyter Notebook or other interactive environments
 nest_asyncio.apply()
 
-api_id = '28214123'
-api_hash = '0d8e7da7edbd6d72a622ea60dfe3ac18'
-phone = '+918828000465'
+api_id = 'addyourid'
+api_hash = 'addyourhash'
+phone = 'addyourphonenumber'
 
-client = TelegramClient('MyApp12345new1234567ab', api_id, api_hash)
+client = TelegramClient('MyApp12345newxxxxxxxx', api_id, api_hash)
 
 async def scrape_members():
     """Scrape members from the chosen Telegram group."""
