@@ -15,17 +15,6 @@ SLEEP_TIME = 30
 
 class main():
 
-    def banner():
-        
-        print(f"""
-    {re}╔╦╗{cy}┌─┐┬  ┌─┐{re}╔═╗  ╔═╗{cy}┌─┐┬─┐┌─┐┌─┐┌─┐┬─┐
-    {re} ║ {cy}├┤ │  ├┤ {re}║ ╦  ╚═╗{cy}│  ├┬┘├─┤├─┘├┤ ├┬┘
-    {re} ╩ {cy}└─┘┴─┘└─┘{re}╚═╝  ╚═╝{cy}└─┘┴└─┴ ┴┴  └─┘┴└─
-
-                version : 3.1
-    youtube.com/channel/UCnknCgg_3pVXS27ThLpw3xQ
-            """)
-
     def send_sms():
         try:
             cpass = configparser.RawConfigParser()
